@@ -1,0 +1,44 @@
+3. CRUD
+========================
+
+Este exemplo implementa um CRUD (create, read, update, and delete)
+
+Adiciona ao exemplo anterior rotas e controles para:
+
+* Criar um novo produto no banco de dados
+* Atualizar os dados do banco
+* Listar os produtos criados
+* Buscar um produto por seu id
+* Remover uma entrada do banco
+
+Para testar
+-------------
+
+Usar o [Insominia](https://insomnia.rest/)
+
+#### Criar produto
+[POST]http://localhost:3001/api/products
+
+JSON: 
+{
+	"title": "ReactJS",
+	"description": "Bibioteca para criar aplicações",
+	"url": "http://github.com/facebook/react"
+}
+
+#### Listar produtos:
+[GET]http://localhost:3001/api/products
+
+####  Mostrar produto
+[GET]http://localhost:3001/api/products/(((id-do-produto)))
+
+#### Atualizar produto
+[PUT]http://localhost:3001/api/products/(((id-do-produto)))
+
+JSON:
+{
+	"title": "Titulo Alterado"
+}
+
+#### Apagar produto
+[DELETE] http://localhost:3001/api/products/(((id-do-produto)))
