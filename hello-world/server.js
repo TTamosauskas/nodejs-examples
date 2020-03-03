@@ -8,7 +8,7 @@ const app = express();
 // req = dados da requisição do cliente
 // res = resposta do servidor
 app.get('/hello', (req, res) => {
-res.send("Hello World 1")
+res.send("Hello World!")
 })
 
 //abre porta 3001
