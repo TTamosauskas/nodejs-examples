@@ -1,6 +1,8 @@
 # NodeJs examples
 
-Dividido em 5 partes, cada uma delas incrementando o exemplo anteior. Todo recurso implementado em cada exemplo está comentado.
+Dividido em 5 partes, cada uma delas incrementando o exemplo anteior. 
+
+Cada exemploe possui seu proprio readme e todo recurso implementado em cada um está comentado.
 
 * 1 - Configuração Inicial do NodeJS para um simples Hello Word
 * 2 - Conexão e inserção em um banco de dados
