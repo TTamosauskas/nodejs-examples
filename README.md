@@ -1,6 +1,6 @@
 # NodeJs examples
 
-Dividido em 5 partes, cada uma delas incrementando o exemplo anteior. 
+Dividido em 5 partes cada uma melhorando um pouco o exemplo anterior. 
 
 Cada exemploe possui seu proprio readme e todo recurso implementado em cada um está comentado.
 
